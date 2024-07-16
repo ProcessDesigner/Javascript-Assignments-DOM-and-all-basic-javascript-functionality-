@@ -1,3 +1,6 @@
+
+console.log("-----------------Calculator----------------- ")
+
 const calculator = (n1,n2,op)=>{
     let result;
     switch(op){
@@ -23,6 +26,12 @@ const calculator = (n1,n2,op)=>{
     }
     console.log("Result: "+result);
 }
+
+console.log(3,4,'+');
+console.log(3,4,'*');
+console.log(3,4,'/');
+console.log(3,4,'-');
+
 const colormixer = (c1,c2)=>{
     let result;
     switch(c1,c2){
